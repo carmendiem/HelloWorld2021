@@ -1,11 +1,9 @@
 
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Create from './pages/Create';
-import Navagation from "./pages/Navagation";
 import Header from './Components/Header/Header.js';
 import Veterinary from "./pages/Veterinary";
-import walc from "./pages/walc";
+import Walc from "./pages/Walc";
 
 function App() {
     return (
@@ -15,22 +13,22 @@ function App() {
             <div className="Content">
                 <Switch>
                     <Route exact path="/engineering">
-                        <Create />
+                        <Veterinary />
                     </Route>
                     <Route exact path="/HSSE">
-                        <Create />
+                        <Veterinary />
                     </Route>
                     <Route exact path="/Parrish">
-                        <Create />
+                        <Veterinary />
                     </Route>
                     <Route exact path="/Digital">
-                        <Create />
+                        <Veterinary />
                     </Route>
                     <Route exact path="/Veterinary">
                         <Veterinary />
                     </Route>
-                    <Route exact path="/walc">
-                        <walc />
+                    <Route exact path="/Walc">
+                        <Walc />
                     </Route>
                 </Switch>
             </div>
