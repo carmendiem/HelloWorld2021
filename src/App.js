@@ -1,10 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Create from './pages/Create';
-import Navagation from "./pages/Navagation";
-import Header from './Components/Header/Header.js';
+import Digital from './pages/Digital';
+import Engineering from './pages/Engineering';
+import HSSE from './pages/HSSE';
+import Parrish from './pages/Parrish';
 import Veterinary from "./pages/Veterinary";
-import walc from "./pages/walc";
+import Walc from "./pages/Walc";
+import Header from './Components/Header/Header.js';
+
 
 function App() {
     return (
@@ -14,22 +17,22 @@ function App() {
             <div className="Content">
                 <Switch>
                     <Route exact path="/engineering">
-                        <Create />
+                        <Engineering />
                     </Route>
                     <Route exact path="/HSSE">
-                        <Create />
+                        <HSSE />
                     </Route>
                     <Route exact path="/Parrish">
-                        <Create />
+                        <Parrish />
                     </Route>
                     <Route exact path="/Digital">
-                        <Create />
+                        <Digital />
                     </Route>
                     <Route exact path="/Veterinary">
                         <Veterinary />
                     </Route>
-                    <Route exact path="/walc">
-                        <walc />
+                    <Route exact path="/Walc">
+                        <Walc />
                     </Route>
                 </Switch>
             </div>
