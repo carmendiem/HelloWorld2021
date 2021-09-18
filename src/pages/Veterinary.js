@@ -2,7 +2,7 @@ import React from "react";
 
 const Veterinary = () => {
     return (
-        <div className="Create">
+        <div className="Veterinary">
             <h2>vet</h2>
         </div>
     );
