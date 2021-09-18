@@ -18,30 +18,29 @@ function WalcStudyArea(props) {
                                 <img src={process.env.PUBLIC_URL + person.picture} alt={'student profile'} height={200}/>
                             </div>
                         </div>
-
-        <div style={{flex: 1, marginLeft: 10, overflowX: 'auto'}}>
-            <Typography variant={'h5'}>
-                {location.name}
-            </Typography>
-            {location.library ?
-                <Typography variant={"subtitle2"}>
-                    {location.library}
-                </Typography> : <></>
-            }
-            {location.addr ?
-                <Typography variant={"body2"}>
-                    {location.addr}
-                </Typography> : <></>
-            }
-            {location.capacity ?
-                <Typography variant={"body2"}>
-                    {location.capacity}
-                </Typography> : <></>
-            }
-        </div>
-        </div>
-        </CardContent>
-        </Card>
+                        <div style={{flex: 1, marginLeft: 10, overflowX: 'auto'}}>
+                             <Typography variant={'h5'}>
+                                {location.name}
+                             </Typography>
+                             {location.library ?
+                                 <Typography variant={"subtitle2"}>
+                                     {location.library}
+                                 </Typography> : <></>
+                             }
+                             {location.addr ?
+                                <Typography variant={"subtitle2"}>
+                                    {location.addr}
+                                </Typography> : <></>
+                             }
+                             {location.capacity ?
+                                 <Typography variant={"body2"}>
+                                    {location.capacity}
+                                 </Typography> : <></>
+                             }
+                        </div>
+                    </div>
+                </CardContent>
+    </Card>
 
 
 
