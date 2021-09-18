@@ -1,4 +1,5 @@
 import React from "react";
+
 import STUDYAREA from "../data/locations";
 import {Button, Card, CardActions, CardContent, Typography, Chip} from "@material-ui/core";
 
@@ -46,3 +47,4 @@ function WalcStudyArea(props) {
 
     )
 }
+
