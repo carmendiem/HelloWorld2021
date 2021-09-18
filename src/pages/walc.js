@@ -19,11 +19,17 @@ function WalcStudyArea(props) {
                     {location.library}
                 </Typography> : <></>
             }
+            {location.addr ?
+                <Typography variant={"body2"}>
+                    {location.addr}
+                </Typography> : <></>
+            }
             {location.capacity ?
                 <Typography variant={"body2"}>
                     {location.capacity}
                 </Typography> : <></>
             }
+        </div>
 
 
     )
