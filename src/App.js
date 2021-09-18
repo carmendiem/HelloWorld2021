@@ -1,63 +1,42 @@
-//import logo from './logo.svg';
-//import './App.css';
-//import {
-//    BrowserRouter as Router,
-//    Switch,
-//    Route,
-//    Link,
-//}
-
-import React from 'react'
-import Header from './Components/Header/Header.js'
+import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Create from './pages/Create';
+import Navagation from "./pages/Navagation";
+import Header from './Components/Header/Header.js';
+import Veterinary from "./pages/Veterinary";
+import walc from "./pages/walc";
 
 function App() {
-  return (
-    <div className="App">
-        <Header />
-    </div>
-  );
+    return (
+        <Router>
+        <div className="App">
+          <Header />
+            <div className="Content">
+                <Switch>
+                    <Route exact path="/engineering">
+                        <Create />
+                    </Route>
+                    <Route exact path="/HSSE">
+                        <Create />
+                    </Route>
+                    <Route exact path="/Parrish">
+                        <Create />
+                    </Route>
+                    <Route exact path="/Digital">
+                        <Create />
+                    </Route>
+                    <Route exact path="/Veterinary">
+                        <Veterinary />
+                    </Route>
+                    <Route exact path="/walc">
+                        <walc />
+                    </Route>
+                </Switch>
+            </div>
+        </div>
+        </Router>
+    );
 }
 
-export default App;
-
-
-/*function App() {
-
-  return (
-    <div className="App">
-      <header className="App Header">
-      <h2> Purdue Study Spaces </h2>
-        <p>
-          Wilmeth Active Learning Center (WALC)
-          Hicks Undergraduate Library (HIKS)
-          Humanities, Social
-        </p>
-         <Switch>
-                        <Route exact path="/">
-                        </Route>
-
-                        <Route path="/WALC">
-                        </Route>
-
-                        <Route path="/HIKS">
-                        </Route>
-
-                        <Route path={"/ece"}>
-                        </Route>
-
-                        <Route path={"/ambassadors"}>
-                        </Route>
-                    </Switch>
-        <a
-          className="App-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
-    </div>
-  );
-}
 
 export default App;
-*/
