@@ -1,5 +1,7 @@
+
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import Digital from './pages/Digital';
 import Engineering from './pages/Engineering';
 import HSSE from './pages/HSSE';
@@ -17,6 +19,7 @@ function App() {
             <div className="Content">
                 <Switch>
                     <Route exact path="/engineering">
+
                         <Engineering />
                     </Route>
                     <Route exact path="/HSSE">
@@ -27,6 +30,7 @@ function App() {
                     </Route>
                     <Route exact path="/Digital">
                         <Digital />
+
                     </Route>
                     <Route exact path="/Veterinary">
                         <Veterinary />
@@ -39,7 +43,6 @@ function App() {
         </div>
         </Router>
     );
-}
 
 
 export default App;
