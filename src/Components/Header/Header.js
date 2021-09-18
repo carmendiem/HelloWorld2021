@@ -54,12 +54,15 @@ const Header = () => {
           </SidebarHeader>
           <SidebarContent>
             <Menu iconShape="square">
-              <MenuItem icon={<FaRegBuilding />}>Library of Engineering and Science</MenuItem>
-              <MenuItem icon={<FaBuilding />}>HSSE Library</MenuItem>
+
+              <a href="/engineering"><MenuItem icon={<FaRegBuilding />}>Library of Engineering and Science</MenuItem></a>
+
+              <a href="/HSSE"><MenuItem icon={<FaBuilding />}>HSSE Library</MenuItem></a>
+
               <MenuItem icon={<FaRegBuilding />}>Parrish Library</MenuItem>
               <MenuItem icon={<FaBuilding />}>Digital Humanities Studio</MenuItem>
               <MenuItem icon={<FaRegBuilding />}>Veterinary Medicine Library</MenuItem>
-              <MenuItem icon={<FaBuilding />}>WALC</MenuItem>
+              <a href="/walc"><MenuItem icon={<FaBuilding />}>WALC</MenuItem></a>
             </Menu>
           </SidebarContent>
         </ProSidebar>
