@@ -1,3 +1,4 @@
+
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './pages/Create';
@@ -36,7 +37,6 @@ function App() {
         </div>
         </Router>
     );
-}
 
 
 export default App;
