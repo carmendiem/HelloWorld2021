@@ -62,7 +62,7 @@ const Header = () => {
               <MenuItem icon={<FaRegBuilding />}><Link to="/Parrish">Parrish Library</Link></MenuItem>
               <MenuItem icon={<FaBuilding />}><Link to="/Digital">Digital Humanities Studio</Link></MenuItem>
               <MenuItem icon={<FaRegBuilding />}><Link to="/Veterinary">Veterinary Medicine Library</Link></MenuItem>
-              <MenuItem icon={<FaBuilding />}><Link to="/walc">WALC</Link></MenuItem>
+              <MenuItem icon={<FaBuilding />}><Link to="/Walc">WALC</Link></MenuItem>
             </Menu>
           </SidebarContent>
         </ProSidebar>
