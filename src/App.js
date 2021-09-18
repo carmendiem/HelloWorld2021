@@ -1,12 +1,13 @@
 import React from "react";
-
-
+import "./data/locations"
 import './App.css';
+import {Button, Card, CardActions, CardContent, Typography, Chip} from "@material-ui/core";
 
 function App() {
 
-  return (
+}
 
+/**
     <div className="App">
       <header className="App-header">
 
@@ -25,5 +26,7 @@ function App() {
     </div>
   );
 }
+*/
+
 
 export default App;
