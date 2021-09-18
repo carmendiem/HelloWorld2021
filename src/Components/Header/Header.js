@@ -1,6 +1,8 @@
 //import useState hook to create menu collapse state
 import React, { useState } from "react";
 
+import { Link } from 'react-router-dom';
+
 //import react pro sidebar components
 import {
   ProSidebar,
@@ -55,14 +57,12 @@ const Header = () => {
           <SidebarContent>
             <Menu iconShape="square">
 
-              <a href="/engineering"><MenuItem icon={<FaRegBuilding />}>Library of Engineering and Science</MenuItem></a>
-
-              <a href="/HSSE"><MenuItem icon={<FaBuilding />}>HSSE Library</MenuItem></a>
-
-              <MenuItem icon={<FaRegBuilding />}>Parrish Library</MenuItem>
-              <MenuItem icon={<FaBuilding />}>Digital Humanities Studio</MenuItem>
-              <MenuItem icon={<FaRegBuilding />}>Veterinary Medicine Library</MenuItem>
-              <a href="/walc"><MenuItem icon={<FaBuilding />}>WALC</MenuItem></a>
+              <MenuItem icon={<FaRegBuilding />}><Link to="/engineering">Library of Engineering and Science</Link></MenuItem>
+              <MenuItem icon={<FaBuilding />}><Link to="/HSSE">HSSE Library</Link></MenuItem>
+              <MenuItem icon={<FaRegBuilding />}><Link to="/Parrish">Parrish Library</Link></MenuItem>
+              <MenuItem icon={<FaBuilding />}><Link to="/Digital">Digital Humanities Studio</Link></MenuItem>
+              <MenuItem icon={<FaRegBuilding />}><Link to="/Veterinary">Veterinary Medicine Library</Link></MenuItem>
+              <MenuItem icon={<FaBuilding />}><Link to="/walc">WALC</Link></MenuItem>
             </Menu>
           </SidebarContent>
         </ProSidebar>
