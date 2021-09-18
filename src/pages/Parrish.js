@@ -1,4 +1,5 @@
 import React from "react";
+import "./Parrish.css";
 
 const Parrish = () => {
     return (

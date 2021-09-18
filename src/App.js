@@ -7,6 +7,7 @@ import Parrish from './pages/Parrish';
 import Veterinary from "./pages/Veterinary";
 import Walc from "./pages/Walc";
 import Header from './Components/Header/Header.js';
+import Home from "./pages/Home";
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
           <Header />
             <div className="Content">
                 <Switch>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
                     <Route exact path="/engineering">
                         <Engineering />
                     </Route>

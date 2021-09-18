@@ -1,4 +1,5 @@
 import React from "react";
+import "./HSSE.css";
 
 const HSSE = () => {
     return (
