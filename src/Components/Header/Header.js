@@ -9,7 +9,7 @@ import {
   Menu,
   MenuItem,
   SidebarHeader,
-  SidebarFooter,
+  //SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";
 
