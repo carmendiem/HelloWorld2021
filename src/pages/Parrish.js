@@ -17,7 +17,7 @@ const bull = (
   </Box>
 );
 
-export default function HSSE() {
+export default function Parrish() {
     return (
         <div className="Parrish">
             <h2>Parrish Library</h2>
