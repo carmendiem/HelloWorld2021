@@ -7,12 +7,14 @@ import { Link } from 'react-router-dom';
 
 //import react pro sidebar components
 import {
+
  ProSidebar,
  Menu,
  MenuItem,
  SidebarHeader,
  //SidebarFooter,
  SidebarContent,
+  
 } from "react-pro-sidebar";
 
 //import icons from react icons
@@ -36,6 +38,7 @@ const Header = () => {
    //condition checking to change state from true to false and vice versa
    menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
  };
+
 
  return (
    <>

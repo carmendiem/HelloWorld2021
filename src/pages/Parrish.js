@@ -22,6 +22,7 @@ export default function Parrish() {
     return (
         <div className="Parrish">
             <h2>Parrish Library</h2>
+
             <h3 id ="parrishAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
@@ -95,6 +96,7 @@ export default function Parrish() {
 
             <h3 id ="parrishFood">Food Options Nearby</h3>
             <h3 id ="parrishVolume">Volume In Area</h3>
+
         </div>
 
 

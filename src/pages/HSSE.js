@@ -1,7 +1,7 @@
 //https://mui.com/components/cards/, card code sourced from
 
 import React from "react";
-import "./HSSE.css"
+import "./HSSE.css";
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
@@ -20,7 +20,6 @@ const bull = (
 );
 
 
-
 export default function HSSE() {
     return (
         <div className="HSSE">
@@ -28,6 +27,7 @@ export default function HSSE() {
             <h3 id ="HSSEAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
+
                   <CardContent id ="CollabStudyCent" style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Collaboration Study Center
@@ -45,6 +45,7 @@ export default function HSSE() {
                 </Card>
 
 <Card sx={{ minWidth: 100 }}>
+
                   <CardContent id ="GroupStudy" style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Group Study Room
