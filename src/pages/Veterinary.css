@@ -1,0 +1,23 @@
+#VETAvailability{
+    position: absolute;
+    left: 100px;
+}
+
+#VETFood{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+
+#VETVolume{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+}
+
+#FrstFlrStdyRoom{
+    position: absolute;
+    left: 100px;
+    top: 700px;
+}
+

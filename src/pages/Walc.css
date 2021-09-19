@@ -1,0 +1,41 @@
+#WALCAvailability{
+    position: absolute;
+    left: 100px;
+}
+
+#WALCFood{
+    position: absolute;
+    left: 100px;
+    top: 940px;
+}
+
+#WALCVolume{
+    position: absolute;
+    left: 100px;
+    top: 1100px;
+}
+
+#DigSchLA{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+}
+
+#DigSchLC{
+    position: absolute;
+    left: 100px;
+    top: 330px;
+}
+
+#DigSchLD{
+    position: absolute;
+    left: 100px;
+    top: 540px;
+}
+
+#DigSchLCONF{
+    position: absolute;
+    left: 100px;
+    top: 740px;
+}
+
