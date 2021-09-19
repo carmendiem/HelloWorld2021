@@ -38,9 +38,7 @@
     color: #000;
     font-weight: bold;
   }
-  .headerlink{
-      text-decoration: none;
-      color: #000;
+
   }
   .headerlink:visited {
     text-decoration: none;
