@@ -3,15 +3,39 @@
     left: 100px;
 }
 
+
+#HollisterConferenceRoom{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+}
+
+#FinancialConferenceRoom{
+    position: absolute;
+    left: 100px;
+    top: 330px;
+}
+
+#LearnLab{
+    position: absolute;
+    left: 100px;
+    top: 540px;
+}
+
+#CorporateStudyRoom{
+    position: absolute;
+    left: 100px;
+    top: 770px;
+}
+
 #parrishFood{
     position: absolute;
     left: 100px;
-    top: 400px;
+    top: 1000px;
 }
 
 #parrishVolume{
     position: absolute;
     left: 100px;
-    top: 700px;
+    top: 1230px;
 }
-
