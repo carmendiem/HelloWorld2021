@@ -8,6 +8,7 @@ import Veterinary from "./pages/Veterinary";
 import Walc from "./pages/Walc";
 import Home from "./pages/Home";
 import Header from './Components/Header/Header.js';
+import Home from "./pages/Home";
 
 
 function App() {
@@ -44,6 +45,5 @@ function App() {
         </Router>
     );
 }
-
 
 export default App;

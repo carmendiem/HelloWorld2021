@@ -1,4 +1,5 @@
 import React from "react";
+import "./Veterinary.css";
 
 const Veterinary = () => {
     return (
