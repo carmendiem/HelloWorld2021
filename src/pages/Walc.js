@@ -16,10 +16,10 @@ const bull = (
     •
   </Box>
 );
-export default function WALC() {
+export default function Walc() {
     return (
-        <div className="WALC">
-            <h2>HSSE Library</h2>
+        <div className="Walc">
+            <h2>WALC </h2>
             <h3 id ="WALCAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
