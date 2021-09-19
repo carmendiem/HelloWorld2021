@@ -9,40 +9,42 @@ import Parrish from './pages/Parrish';
 import Veterinary from "./pages/Veterinary";
 import Walc from "./pages/Walc";
 import Header from './Components/Header/Header.js';
-
+import Home from './pages/Home';
 
 function App() {
     return (
         <Router>
-        <div className="App">
-          <Header />
-            <div className="Content">
-                <Switch>
-                    <Route exact path="/engineering">
+            <div className="App">
+                <Header/>
+                <div className="Content">
+                    <Switch>
+                        <Route exact path="/">
+                            <Home/>
+                        </Route>
+                        <Route exact path="/engineering">
+                            <Engineering/>
+                        </Route>
+                        <Route exact path="/HSSE">
+                            <HSSE/>
+                        </Route>
+                        <Route exact path="/Parrish">
+                            <Parrish/>
+                        </Route>
+                        <Route exact path="/Digital">
+                            <Digital/>
 
-                        <Engineering />
-                    </Route>
-                    <Route exact path="/HSSE">
-                        <HSSE />
-                    </Route>
-                    <Route exact path="/Parrish">
-                        <Parrish />
-                    </Route>
-                    <Route exact path="/Digital">
-                        <Digital />
-
-                    </Route>
-                    <Route exact path="/Veterinary">
-                        <Veterinary />
-                    </Route>
-                    <Route exact path="/Walc">
-                        <Walc />
-                    </Route>
-                </Switch>
+                        </Route>
+                        <Route exact path="/Veterinary">
+                            <Veterinary/>
+                        </Route>
+                        <Route exact path="/Walc">
+                            <Walc/>
+                        </Route>
+                    </Switch>
+                </div>
             </div>
-        </div>
         </Router>
     );
-
+}
 
 export default App;
