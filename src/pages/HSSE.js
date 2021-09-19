@@ -24,7 +24,7 @@ export default function HSSE() {
             <h3 id ="HSSEAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="CollabStudyCent">
+                  <CardContent id ="CollabStudyCent"style={{backgroundColor: "#b1fac5"}}>
                     <Typography id ="CSCname" align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Collaboration Study Center
                     </Typography>
@@ -41,7 +41,7 @@ export default function HSSE() {
                 </Card>
 
 <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="GroupStudy">
+                  <CardContent id ="GroupStudy"style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Group Study Room
                     </Typography>
@@ -57,7 +57,7 @@ Located on the first floor of the Humanities, Social Science, and Education Libr
                 </Card>
 
 <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="IntervR">
+                  <CardContent id ="IntervR"style={{backgroundColor: "#fabeb1"}}>
                     <Typography id ="CSCname" align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Interview Room
                     </Typography>
