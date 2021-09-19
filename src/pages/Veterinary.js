@@ -24,7 +24,7 @@ export default function Veterinary() {
             <h3 id ="VETAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="FrstFlrStdyRoom">
+                  <CardContent id ="FrstFlrStdyRoom" style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       First Floor Study Room
                     </Typography>

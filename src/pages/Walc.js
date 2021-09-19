@@ -23,7 +23,7 @@ export default function Walc() {
             <h3 id ="WALCAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="DigSchLA">
+                  <CardContent id ="DigSchLA"style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Digital Scholars Lab - A
                     </Typography>
@@ -40,7 +40,7 @@ export default function Walc() {
                 </Card>
 
 <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="DigSchLC">
+                  <CardContent id ="DigSchLC"style={{backgroundColor: "#fabeb1"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Digital Scholars Lab - C
                     </Typography>
@@ -57,7 +57,7 @@ export default function Walc() {
                 </Card>
 
 <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="DigSchLD">
+                  <CardContent id ="DigSchLD"style={{backgroundColor: "#fabeb1"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Digital Scholars Lab - D
                     </Typography>
@@ -74,7 +74,7 @@ export default function Walc() {
                 </Card>
 
 <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="DigSchLCONF">
+                  <CardContent id ="DigSchLCONF"style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Digital Scholars Lab - Conf. Circle
                     </Typography>
