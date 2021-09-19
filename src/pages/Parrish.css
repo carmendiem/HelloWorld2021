@@ -3,7 +3,6 @@
     left: 100px;
 }
 
-
 #HollisterConferenceRoom{
     position: absolute;
     left: 100px;
@@ -19,7 +18,9 @@
 #LearnLab{
     position: absolute;
     left: 100px;
+
     top: 540px;
+
 }
 
 #CorporateStudyRoom{

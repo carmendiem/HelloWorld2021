@@ -3,6 +3,7 @@
 import React from "react";
 import "./Parrish.css";
 
+
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -22,7 +23,6 @@ export default function Parrish() {
     return (
         <div className="Parrish">
             <h2>Parrish Library</h2>
-
             <h3 id ="parrishAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
