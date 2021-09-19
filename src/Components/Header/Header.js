@@ -9,7 +9,7 @@ import {
   Menu,
   MenuItem,
   SidebarHeader,
-  SidebarFooter,
+  //SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";
 
@@ -43,7 +43,7 @@ const Header = () => {
           <SidebarHeader>
           <div className="logotext">
               {/* small and big change using menucollapse state */}
-              <p>{menuCollapse ? "PSS" : "Purdue Study Spaces"}</p>
+              <p>{menuCollapse ? "PSS" : <Link className="headerlink" to="/" style={{ textDecoration: 'none'}}>Purdue Study Spaces</Link>}</p>
             </div>
             <div className="closemenu" onClick={menuIconClick}>
                 {/* changing menu collapse icon on click */}
@@ -57,7 +57,7 @@ const Header = () => {
           <SidebarContent>
             <Menu iconShape="square">
 
-              <MenuItem icon={<FaRegBuilding />}><Link to="/engineering">Library of Engineering and Science</Link></MenuItem>
+              <MenuItem icon={<FaRegBuilding />}><Link to="/Engineering">Library of Engineering and Science</Link></MenuItem>
               <MenuItem icon={<FaBuilding />}><Link to="/HSSE">HSSE Library</Link></MenuItem>
               <MenuItem icon={<FaRegBuilding />}><Link to="/Parrish">Parrish Library</Link></MenuItem>
               <MenuItem icon={<FaBuilding />}><Link to="/Digital">Digital Humanities Studio</Link></MenuItem>
