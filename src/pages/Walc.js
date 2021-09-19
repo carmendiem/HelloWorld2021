@@ -25,7 +25,7 @@ export default function Walc() {
             <h3 id ="WALCAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="DigSchLA"style={{backgroundColor: "#b1fac5"}}>
+                  <CardContent id ="DigSchLA"style={{backgroundColor: "#b1fac5"}} >
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Digital Scholars Lab - A
                     </Typography>
