@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./HSSE.css";
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';

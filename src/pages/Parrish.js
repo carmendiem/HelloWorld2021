@@ -1,4 +1,12 @@
 import React from "react";
+import "./Parrish.css";
+
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 const bull = (
   <Box
@@ -8,7 +16,6 @@ const bull = (
     •
   </Box>
 );
-
 export default function Parrish() {
     return (
         <div className="Parrish">
@@ -16,7 +23,7 @@ export default function Parrish() {
             <h3 id ="parrishAvailability">Availability</h3>
 
     <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="HollisterConferenceRoom">
+                  <CardContent id ="HollisterConferenceRoom"style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Collaboration Study Center
                     </Typography>
@@ -33,7 +40,7 @@ export default function Parrish() {
                 </Card>
 
     <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="FinancialConferenceRoom">
+                  <CardContent id ="FinancialConferenceRoom"style={{backgroundColor: "#fabeb1"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Financial Conference Room
                     </Typography>
@@ -50,7 +57,7 @@ export default function Parrish() {
                 </Card>
 
     <Card sx={{ minWidth: 100 }}>
-                  <CardContent id ="LearnLab">
+                  <CardContent id ="LearnLab"style={{backgroundColor: "#b1fac5"}}>
                     <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                       Learn Lab
                     </Typography>
@@ -67,7 +74,7 @@ export default function Parrish() {
                 </Card>
 
     <Card sx={{ minWidth: 100 }}>
-                      <CardContent id ="CorporateStudyRoom">
+                      <CardContent id ="CorporateStudyRoom"style={{backgroundColor: "#fabeb1"}}>
                         <Typography align="left" sx={{ fontSize: 20 }} color="black" gutterBottom>
                           Corporate Study Room
                         </Typography>
