@@ -1,5 +1,5 @@
 import React from "react";
-import "./HSSE.css"
+import "./HSSE.css";
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
@@ -17,21 +17,6 @@ const bull = (
   </Box>
 );
 
-/*const HSSE = () => {
-    return (
-        <div className="HSSE">
-            <h2>HSSE Library</h2>
-
-
-            <h3 id ="HSSEAvailability">Availability</h3>
-            <h3 id ="HSSEFood">Food Options Nearby</h3>
-            <h3 id ="HSSEVolume">Volume In Area</h3>
-        </div>
-
-
-    );
-}
-*/
 export default function HSSE() {
     return (
         <div className="HSSE">
