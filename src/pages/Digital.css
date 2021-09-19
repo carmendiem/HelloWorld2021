@@ -1,0 +1,22 @@
+#DigitalAvailability{
+    position: absolute;
+    left: 100px;
+}
+
+#DHSFood{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+
+#DHSVolume{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+}
+
+#DHS{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+}
