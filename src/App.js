@@ -6,9 +6,10 @@ import HSSE from './pages/HSSE';
 import Parrish from './pages/Parrish';
 import Veterinary from "./pages/Veterinary";
 import Walc from "./pages/Walc";
-import Home from "./pages/Home";
-import Header from './Components/Header/Header.js';
 
+import Home from "./pages/Home"
+
+import Header from './Components/Header/Header.js';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <div className="Content">
                 <Switch>
                     <Route exact path="/">
-                        <Home />
+                       <Home />
                     </Route>
                     <Route exact path="/engineering">
                         <Engineering />
@@ -36,9 +37,11 @@ function App() {
                     <Route exact path="/Veterinary">
                         <Veterinary />
                     </Route>
+                    {
                     <Route exact path="/Walc">
                         <Walc />
                     </Route>
+                    }
                 </Switch>
             </div>
         </div>
