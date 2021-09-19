@@ -1,0 +1,34 @@
+#HSSEAvailability{
+    position: absolute;
+    left: 100px;
+}
+
+#HSSEFood{
+    position: absolute;
+    left: 100px;
+    top: 750px;
+}
+
+#HSSEVolume{
+    position: absolute;
+    left: 100px;
+    top: 900px;
+}
+
+#CollabStudyCent{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+}
+
+#GroupStudy{
+    position: absolute;
+    left: 100px;
+    top: 330px;
+}
+
+#IntervR{
+    position: absolute;
+    left: 100px;
+    top: 540px;
+}
